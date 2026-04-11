@@ -6,5 +6,8 @@ const conf={
     appwriteBucketId:String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
     appwriteProjectNameId:String(import.meta.env.VITE_APPWRITE_PROJECT_NAME),
 }
+// console.log(appwriteUrl,appwriteProjectId);
+console.log(import.meta.env.VITE_APPWRITE_URL);
+
 
 export default conf
